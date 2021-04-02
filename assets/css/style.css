@@ -1159,6 +1159,8 @@ a:hover {
     }
 }
 
+
+/*
 .php-email-form .validate {
     display: none;
     color: red;
@@ -1233,10 +1235,7 @@ a:hover {
     color: #fff;
     transition: 0.4s;
 }
-
-.php-email-form button[type="submit"]:hover {
-    background: #3393ff;
-}
+*/
 
 @-webkit-keyframes animate-loading {
     0% {
@@ -1879,6 +1878,29 @@ button {
     font: inherit;
     line-height: 1;
     margin: 0.5em;
+    margin-top: 0.5em;
     padding: 1em 2em;
     border-radius: 1rem;
+}
+
+.btncv {
+    min-width: 100px;
+    background-color: var(--darker-bg-color);
+    border: var(--darker-bg-color);
+    padding: 5px 15px;
+    color: #fff;
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.btncv:hover {
+    background-color: var(--base-color);
+    color: #fff;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
